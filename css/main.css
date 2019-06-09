@@ -1,0 +1,70 @@
+.time_board{
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    padding: 20px 20px 35px;
+    background: rgba(255, 237, 211, 0.938);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.time_board h3{
+    text-align: center;
+    margin: 0;
+}
+
+.time{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 8px;
+    padding: 10px 20px;
+    background: rgb(255, 178, 77);
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    font-size: 4vw;
+    color: #fff;
+    font-weight: 600;
+    text-shadow: 1px 1px 10px rgba(43, 43, 43, 0.678);
+}
+
+.time__number{
+    margin: 0 10px;
+    text-align: center;
+    position: relative;
+}
+
+.time__number:nth-child(1)::after{
+    display: block;
+    content: "дни";
+    position: absolute;
+    font-size: 1vw;
+    left: 40%;
+    margin-top: 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.time__number:nth-child(2)::after{
+    display: block;
+    content: "часы";
+    position: absolute;
+    font-size: 1vw;
+    left: 20%;
+    margin-top: 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+.time__number:nth-child(3)::after{
+    display: block;
+    content: "минуты";
+    position: absolute;
+    font-size: 1vw;
+    margin-top: 15px;
+    text-shadow: none;
+    text-transform: uppercase;
+}
+
+
